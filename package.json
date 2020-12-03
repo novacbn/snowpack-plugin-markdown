@@ -1,0 +1,54 @@
+{
+    "name": "snowpack-plugin-markdown",
+    "version": "0.0.1",
+    "description": "Simple Snowpack plugin for preprocessing Markdown files to HTML via rehype / remark",
+    "author": "novacbn",
+    "main": "lib/index.js",
+    "module": "dist/esm/index.js",
+    "typings": "types/index.d.ts",
+    "keywords": [
+        "markdown",
+        "rehype",
+        "remark",
+        "snowpack",
+        "snowpack-plugin",
+        "unified"
+    ],
+    "files": [
+        "dist",
+        "lib",
+        "types"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/novacbn/snowpack-plugin-markdown"
+    },
+    "scripts": {
+        "build:plugin": "node ./scripts/build.js",
+        "build:types": "tsc --emitDeclarationOnly",
+        "test:types": "tsc --noEmit",
+        "prebuild:clean": "rimraf ./dist;rimraf ./lib"
+    },
+    "dependencies": {
+        "@starptech/prettyhtml-hast-to-html": "^0.10.0",
+        "js-yaml": "^3.14.0",
+        "rehype-raw": "^5.0.0",
+        "remark-frontmatter": "^3.0.0",
+        "remark-parse": "^9.0.0",
+        "remark-rehype": "^8.0.0",
+        "toml": "^3.0.0",
+        "unified": "^9.2.0"
+    },
+    "devDependencies": {
+        "@types/glob-to-regexp": "^0.4.0",
+        "@types/http-proxy": "^1.17.4",
+        "@types/js-yaml": "^3.12.5",
+        "esbuild": "^0.7.22",
+        "glob": "^7.1.6",
+        "mdast": "^3.0.0",
+        "prettier": "^2.0.5",
+        "rimraf": "^3.0.2",
+        "snowpack": "^2.17.1",
+        "typescript": "^4.0.3"
+    }
+}
