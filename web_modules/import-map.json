@@ -1,0 +1,6 @@
+{
+  "imports": {
+    "highlight.js/styles/github.css": "./highlightjs/styles/github.css",
+    "svelte/internal": "./svelte/internal.js"
+  }
+}
