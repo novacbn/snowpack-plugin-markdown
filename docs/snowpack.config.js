@@ -12,6 +12,7 @@ module.exports = {
                 rehype: [code_highlightjs],
             },
         ],
+        "@snowpack/plugin-webpack",
     ],
 
     alias: {
