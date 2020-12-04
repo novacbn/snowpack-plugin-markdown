@@ -1,0 +1,148 @@
+{
+  "inputs": {
+    "__snowpack__/env.js": {
+      "bytes": 73,
+      "imports": []
+    },
+    "extern/styles/chota.css": {
+      "bytes": 23461,
+      "imports": []
+    },
+    "web_modules/highlightjs/styles/github.css": {
+      "bytes": 1148,
+      "imports": []
+    },
+    "web_modules/svelte/internal.js": {
+      "bytes": 12642,
+      "imports": []
+    },
+    "_dist_/routes/$layout.css": {
+      "bytes": 38,
+      "imports": []
+    },
+    "_dist_/routes/$layout.js": {
+      "bytes": 4139,
+      "imports": [
+        {
+          "path": "_dist_/routes/$layout.css"
+        },
+        {
+          "path": "web_modules/svelte/internal.js"
+        }
+      ]
+    },
+    "_dist_/routes/index.css": {
+      "bytes": 155,
+      "imports": []
+    },
+    "_dist_/content/README.js": {
+      "bytes": 7502,
+      "imports": []
+    },
+    "_dist_/routes/index.js": {
+      "bytes": 1725,
+      "imports": [
+        {
+          "path": "_dist_/routes/index.css"
+        },
+        {
+          "path": "web_modules/svelte/internal.js"
+        },
+        {
+          "path": "_dist_/content/README.js"
+        }
+      ]
+    },
+    "_dist_/Application.js": {
+      "bytes": 1758,
+      "imports": [
+        {
+          "path": "web_modules/svelte/internal.js"
+        },
+        {
+          "path": "_dist_/routes/$layout.js"
+        },
+        {
+          "path": "_dist_/routes/index.js"
+        }
+      ]
+    },
+    "_dist_/index.js": {
+      "bytes": 608,
+      "imports": [
+        {
+          "path": "__snowpack__/env.js"
+        },
+        {
+          "path": "extern/styles/chota.css"
+        },
+        {
+          "path": "web_modules/highlightjs/styles/github.css"
+        },
+        {
+          "path": "_dist_/Application.js"
+        }
+      ]
+    }
+  },
+  "outputs": {
+    "../node_modules/.cache/snowpack/~~bundle~~/_dist_/index.js": {
+      "imports": [],
+      "exports": [],
+      "inputs": {
+        "__snowpack__/env.js": {
+          "bytesInOutput": 56
+        },
+        "extern/styles/chota.css": {
+          "bytesInOutput": 0
+        },
+        "web_modules/highlightjs/styles/github.css": {
+          "bytesInOutput": 0
+        },
+        "web_modules/svelte/internal.js": {
+          "bytesInOutput": 4264
+        },
+        "_dist_/routes/$layout.css": {
+          "bytesInOutput": 0
+        },
+        "_dist_/routes/$layout.js": {
+          "bytesInOutput": 1442
+        },
+        "_dist_/routes/index.css": {
+          "bytesInOutput": 0
+        },
+        "_dist_/content/README.js": {
+          "bytesInOutput": 7177
+        },
+        "_dist_/routes/index.js": {
+          "bytesInOutput": 608
+        },
+        "_dist_/Application.js": {
+          "bytesInOutput": 532
+        },
+        "_dist_/index.js": {
+          "bytesInOutput": 163
+        }
+      },
+      "bytes": 14244
+    },
+    "../node_modules/.cache/snowpack/~~bundle~~/_dist_/index.css": {
+      "imports": [],
+      "inputs": {
+        "extern/styles/chota.css": {
+          "bytesInOutput": 18563
+        },
+        "web_modules/highlightjs/styles/github.css": {
+          "bytesInOutput": 865
+        },
+        "_dist_/routes/$layout.css": {
+          "bytesInOutput": 38
+        },
+        "_dist_/routes/index.css": {
+          "bytesInOutput": 153
+        }
+      },
+      "bytes": 19620
+    }
+  }
+}
