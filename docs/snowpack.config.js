@@ -12,19 +12,26 @@ module.exports = {
                 rehype: [code_highlightjs],
             },
         ],
-        "@snowpack/plugin-webpack",
     ],
 
     alias: {
         "@content": "./src/content",
     },
 
+    mount: {
+        public: "/",
+        src: "/_dist_",
+    },
+
     buildOptions: {
         baseUrl: "/snowpack-plugin-markdown",
     },
 
-    mount: {
-        public: "/",
-        src: "/_dist_",
+    experiments: {
+        optimize: {
+            bundle: true,
+            minify: true,
+            target: "es2017",
+        },
     },
 };
